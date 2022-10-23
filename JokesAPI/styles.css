@@ -1,11 +1,11 @@
 body{
     margin-top: 5%;
     text-align: center;
-    background-color: #D9F8C4;
+    background-color: #AF7AB3;
 }
 
 h1{
-    color: #EB1D36;
+    color: white;
     font-family: 'Covered By Your Grace', cursive;
 }
 
@@ -13,10 +13,8 @@ p{
     width: 20%;
     text-align: justify;
     padding: 20px;
-    background-color: #F9F9C5;
-    border: 1px solid #EB1D36;
-
-    font-family: 'Covered By Your Grace', cursive;
+    background-color: #80558C;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 #container-box{
@@ -27,11 +25,15 @@ p{
 
 #btn
 {
-    background-color: #EB1D36;
-    color: white;
+    transition-duration: 0.4s;
     font-family: 'Covered By Your Grace', cursive;
     padding: 2px;
+    background-color: #80558C;
 }
+#btn:hover {
+    background-color: #80558C; 
+    color: white;
+  }
 
 @media only screen and (max-width: 600px){
     p{
